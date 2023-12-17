@@ -1,0 +1,176 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "HCPL-2531" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (id 0) (at -12.7249 11.4524 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "HCPL-2531" (id 1) (at -12.7227 -12.7227 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "MF" "Broadcom Limited" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nOptoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing\n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "DIP-8 Broadcom / Avago" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "HCPL-2531A-000E" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "OC_FARNELL" "8550026" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=snap" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "HCPL-2531" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "OC_NEWARK" "88H7847" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=eda" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "HCPL-2531_0_0"
+      (polyline
+        (pts (xy -3.81 2.54) (xy -2.54 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 -2.54) (xy -2.54 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 7.239) (xy -2.54 -7.239)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -7.239) (xy 0.0 -5.207)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -5.207) (xy 0.0 5.207)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 5.207) (xy -2.54 7.239)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 3.175) (xy 6.35 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 6.35 0.0) (xy 2.54 -3.175)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -3.175) (xy 2.54 3.175)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 2.032) (xy 1.905 1.143)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 0.762) (xy 1.905 -0.127)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 -0.508) (xy 1.905 -1.397)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 1.905 1.143)
+          (xy 1.397 1.778)
+          (xy 1.143 1.397)
+          (xy 1.905 1.143)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.905 -0.127)
+          (xy 1.397 0.508)
+          (xy 1.143 0.127)
+          (xy 1.905 -0.127)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.905 -1.397)
+          (xy 1.397 -0.762)
+          (xy 1.143 -1.143)
+          (xy 1.905 -1.397)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (rectangle (start -12.7 -10.16) (end 15.24 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at -15.24 7.62 0) (length 2.54)
+        (name "VDD1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -7.62 0) (length 2.54)
+        (name "GND1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 2.54 0) (length 2.54)
+        (name "VIN+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -2.54 0) (length 2.54)
+        (name "VIN-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 2.54 180.0) (length 2.54)
+        (name "VOUT+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -2.54 180.0) (length 2.54)
+        (name "VOUT-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 7.62 180.0) (length 2.54)
+        (name "VDD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -7.62 180.0) (length 2.54)
+        (name "GND2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

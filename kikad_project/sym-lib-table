@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32F103C8T6")(type "KiCad")(uri "${KIPRJMOD}/STM32F103C8T6.kicad_sym")(options "")(descr ""))
+  (lib (name "HCPL-2531")(type "KiCad")(uri "${KIPRJMOD}/HCPL-2531/HCPL-2531.kicad_sym")(options "")(descr ""))
+)

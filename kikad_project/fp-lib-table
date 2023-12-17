@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HCPL-2531")(type "KiCad")(uri "${KIPRJMOD}/HCPL-2531")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+)

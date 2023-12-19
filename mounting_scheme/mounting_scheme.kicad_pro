@@ -243,23 +243,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "Library"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "STM32F103C8T6",
-      "HCPL-2531",
-      "3522-2",
-      "P6KE27CA",
-      "BZX85C10-TAP",
-      "CD40109BE",
-      "236-744",
-      "236-102",
-      "236-104"
+      "robot_pcb"
     ]
   },
   "meta": {
-    "filename": "kikad_project.kicad_pro",
+    "filename": "mounting_scheme.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -336,7 +326,7 @@
   },
   "sheets": [
     [
-      "d2a66178-d1ee-482f-bb26-256f544868a0",
+      "9a78c93e-47d2-4f33-a9d4-19e8f00d3c42",
       ""
     ]
   ],

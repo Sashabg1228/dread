@@ -9,4 +9,5 @@
   (lib (name "236-102")(type "KiCad")(uri "${KIPRJMOD}/236-102/KiCADv6/2023-12-18_13-27-59.kicad_sym")(options "")(descr ""))
   (lib (name "236-104")(type "KiCad")(uri "${KIPRJMOD}/236-104/KiCADv6/2023-12-18_13-29-23.kicad_sym")(options "")(descr ""))
   (lib (name "236-744")(type "KiCad")(uri "${KIPRJMOD}/236-744/KiCADv6/2023-12-18_09-56-45.kicad_sym")(options "")(descr ""))
+  (lib (name "test")(type "KiCad")(uri "C:/Users/User/Downloads/P6KE27CA/test.kicad_sym")(options "")(descr ""))
 )

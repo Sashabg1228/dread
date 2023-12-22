@@ -1,4 +1,32 @@
-22465254173842717
+22477174575737331
+236-102
+CONN_236-102_WAG
+
+236-102 
+0
+2
+2
+236-104
+CONN_236-104_WAG
+
+236-104 
+0
+4
+4
+236-744
+236-744_WAG
+
+236-744 
+0
+2
+2
+3522-2
+FUSE_3522-2
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +41,13 @@ audio belton reverb
 0
 7
 7
+BZX85C10-TAP
+DO-41_VIS
+
+BZX85C10-TAP 
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2456,6 +2491,13 @@ speaker CUI
 0
 2
 2
+CD40109BE
+DIP794W45P254L1969H508Q16
+
+
+0
+16
+16
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -66247,6 +66289,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+P6KE27CA
+DIOAD1300W80L670D310
+
+
+0
+2
+2
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf

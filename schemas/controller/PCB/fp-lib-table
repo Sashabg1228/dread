@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "STM32F103C8T6_pinout")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/STM32F103C8T6_pinout")(options "")(descr ""))
+  (lib (name "236-102")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/236-102/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

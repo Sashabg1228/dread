@@ -244,12 +244,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "robot_pcb"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mounting_scheme.kicad_pro",
+    "filename": "PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -326,7 +324,7 @@
   },
   "sheets": [
     [
-      "9a78c93e-47d2-4f33-a9d4-19e8f00d3c42",
+      "cc0afcc5-4222-4e4f-95ce-c9c866876c9c",
       ""
     ]
   ],

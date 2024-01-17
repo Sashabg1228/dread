@@ -451,7 +451,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

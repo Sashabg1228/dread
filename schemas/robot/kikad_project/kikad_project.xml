@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/kikad_project.kicad_sch</source>
+    <date>Friday, February 16, 2024 at 10:26:15 AM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>kikad_project.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f56d5cb3-2a08-4fe2-92a9-21eaf8ce4b05</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f348f16d-e018-4ad7-9874-d11f0e720a2c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85139b2e-5eac-4434-b4ac-8f569265caf5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30fa675b-edfa-4e46-8a29-b5dfbb35db88</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14aabf8f-1671-4191-899c-ef4f59ec2f18</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80558acd-887f-41a4-adc9-799fd5bd0f83</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4df0b3e9-d678-423b-a162-dc1d9ef70ab7</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a062cfbb-ca45-4a19-a264-42122c4a6ad3</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c912e6e6-7590-44d7-bbb3-0c24db972d03</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56637ac2-fe57-422a-83cf-22b9db41c298</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10F</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9939b340-1e5f-48fd-bca7-9b6dc5014895</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10F</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cfd38e8-aef9-4cff-a2ed-362953eb1007</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BZX85C10-TAP</value>
+      <footprint>BZX85C10-TAP:DO-41_VIS</footprint>
+      <datasheet>BZX85C10-TAP</datasheet>
+      <libsource lib="BZX85C10-TAP" part="BZX85C10-TAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="BZX85C10-TAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82ee8d34-feb8-453f-9ec6-9d450bd032a9</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>P6KE27CA</value>
+      <footprint>P6KE27CA:DIOAD1300W80L670D310</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/P6KE27CA/Taiwan+Semiconductor/view-part/?ref=eda</field>
+        <field name="Description">
+600W, 27V, 5%, Bidirectional, TVS
+</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.6 mm</field>
+        <field name="MF">Taiwan Semiconductor</field>
+        <field name="MP">P6KE27CA</field>
+        <field name="PARTREV">K2105</field>
+        <field name="Package">DO-15 Taiwan Semiconductor</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4809733&amp;manufacturer=Taiwan Semiconductor&amp;part_name=P6KE27CA&amp;search_term=p6ke27ca</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/P6KE27CA/Taiwan+Semiconductor/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="P6KE27CA" part="P6KE27CA" description=""/>
+      <property name="MF" value="Taiwan Semiconductor"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="3.6 mm"/>
+      <property name="Package" value="DO-15 Taiwan Semiconductor"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/P6KE27CA/Taiwan+Semiconductor/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="K2105"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/P6KE27CA/Taiwan+Semiconductor/view-part/?ref=snap"/>
+      <property name="MP" value="P6KE27CA"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4809733&amp;manufacturer=Taiwan Semiconductor&amp;part_name=P6KE27CA&amp;search_term=p6ke27ca"/>
+      <property name="Description" value="&#xA;600W, 27V, 5%, Bidirectional, TVS&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Taiwan Semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3464779d-dc4b-42ab-afc1-e6dd125ce0a4</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22c66893-8087-4702-a102-9c7f8a50850c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bdd65cf-66f4-4195-90f0-0648d4994cbc</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55a505e0-f88d-4834-bcc5-3d3e71f68b2c</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>HCPL-2531</value>
+      <footprint>HCPL-2531:DIL08</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=eda</field>
+        <field name="Description">
+Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
+</field>
+        <field name="MF">Broadcom Limited</field>
+        <field name="MP">HCPL-2531</field>
+        <field name="MPN">HCPL-2531A-000E</field>
+        <field name="OC_FARNELL">8550026</field>
+        <field name="OC_NEWARK">88H7847</field>
+        <field name="Package">DIP-8 Broadcom / Avago</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="HCPL-2531" part="HCPL-2531" description=""/>
+      <property name="MF" value="Broadcom Limited"/>
+      <property name="Description" value="&#xA;Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing&#xA;"/>
+      <property name="Package" value="DIP-8 Broadcom / Avago"/>
+      <property name="MPN" value="HCPL-2531A-000E"/>
+      <property name="Price" value="None"/>
+      <property name="OC_FARNELL" value="8550026"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=snap"/>
+      <property name="MP" value="HCPL-2531"/>
+      <property name="OC_NEWARK" value="88H7847"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3808b77f-a32e-47c0-8e00-86be6c596697</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>HCPL-2531</value>
+      <footprint>HCPL-2531:DIL08</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=eda</field>
+        <field name="Description">
+Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
+</field>
+        <field name="MF">Broadcom Limited</field>
+        <field name="MP">HCPL-2531</field>
+        <field name="MPN">HCPL-2531A-000E</field>
+        <field name="OC_FARNELL">8550026</field>
+        <field name="OC_NEWARK">88H7847</field>
+        <field name="Package">DIP-8 Broadcom / Avago</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="HCPL-2531" part="HCPL-2531" description=""/>
+      <property name="MF" value="Broadcom Limited"/>
+      <property name="Description" value="&#xA;Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing&#xA;"/>
+      <property name="Package" value="DIP-8 Broadcom / Avago"/>
+      <property name="MPN" value="HCPL-2531A-000E"/>
+      <property name="Price" value="None"/>
+      <property name="OC_FARNELL" value="8550026"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=snap"/>
+      <property name="MP" value="HCPL-2531"/>
+      <property name="OC_NEWARK" value="88H7847"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3d8b8d3-bb1d-455f-be77-521ebe184c7a</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>HCPL-2531</value>
+      <footprint>HCPL-2531:DIL08</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=eda</field>
+        <field name="Description">
+Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
+</field>
+        <field name="MF">Broadcom Limited</field>
+        <field name="MP">HCPL-2531</field>
+        <field name="MPN">HCPL-2531A-000E</field>
+        <field name="OC_FARNELL">8550026</field>
+        <field name="OC_NEWARK">88H7847</field>
+        <field name="Package">DIP-8 Broadcom / Avago</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="HCPL-2531" part="HCPL-2531" description=""/>
+      <property name="MF" value="Broadcom Limited"/>
+      <property name="Description" value="&#xA;Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing&#xA;"/>
+      <property name="Package" value="DIP-8 Broadcom / Avago"/>
+      <property name="MPN" value="HCPL-2531A-000E"/>
+      <property name="Price" value="None"/>
+      <property name="OC_FARNELL" value="8550026"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=snap"/>
+      <property name="MP" value="HCPL-2531"/>
+      <property name="OC_NEWARK" value="88H7847"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c41b2960-41fb-44c5-96cf-c7355a8de13e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="236-102" part="236-102" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc278f81-cfa0-44cd-b55f-9b9437edce5f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>236-104</value>
+      <footprint>236-104:CONN_236-104_WAG</footprint>
+      <datasheet>236-104</datasheet>
+      <libsource lib="236-104" part="236-104" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-104"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b0919c1-a236-4d03-820d-5dded3c980c8</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cce1644-dc88-4e05-adc3-cbbba03f5f30</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09d67828-adaf-4d2c-9295-0aaed7059f8f</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>236-401</value>
+      <footprint>236-744:236-744_WAG</footprint>
+      <datasheet>236-744</datasheet>
+      <libsource lib="236-744" part="236-744" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-744"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbd5c03d-3b97-4b1c-9be8-ecda9f964dfb</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e0ebfc9-0696-42be-acb2-1cf746a52508</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e588bf90-e9bc-4beb-857c-5e05fbe943f5</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>236-401</value>
+      <footprint>236-744:236-744_WAG</footprint>
+      <datasheet>236-744</datasheet>
+      <libsource lib="236-744" part="236-744" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-744"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>973461d5-22a5-46ab-962d-f486463905be</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3aaa32d-835b-4894-96fc-8c0fcff8708f</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>236-104</value>
+      <footprint>236-104:CONN_236-104_WAG</footprint>
+      <datasheet>236-104</datasheet>
+      <libsource lib="" part="236-104_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-104"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>850fc1ee-503c-46cb-b683-3bb834951ee6</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>236-104</value>
+      <footprint>236-104:CONN_236-104_WAG</footprint>
+      <datasheet>236-104</datasheet>
+      <libsource lib="" part="236-104_4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-104"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6b01780-08d3-412b-9472-2c71d95edc3e</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>236-401</value>
+      <footprint>236-744:236-744_WAG</footprint>
+      <datasheet>236-744</datasheet>
+      <libsource lib="236-744" part="236-744" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-744"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0d7a93c-373f-4154-bbb4-1a936be16b95</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bc79f8d-69d5-4ca4-96c4-13b57cbda8af</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b14c8293-1ba5-4f7f-946c-e35a7a258ce0</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7664529b-124b-47ca-849f-710b5cfc5b47</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f08e17c2-a048-4e86-ac1a-248df7c18724</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>236-401</value>
+      <footprint>236-744:236-744_WAG</footprint>
+      <datasheet>236-744</datasheet>
+      <libsource lib="236-744" part="236-744" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-744"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d72562a3-5a4d-43ec-86b9-0a14b3bc11c0</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>236-102</value>
+      <footprint>236-102:CONN_236-102_WAG</footprint>
+      <datasheet>236-102</datasheet>
+      <libsource lib="" part="236-102_3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_keywords" value="236-102"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dec41c4-7d55-4519-93e0-0319af54f0e8</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>Inductor_THT:L_Axial_L16.0mm_D7.5mm_P5.08mm_Vertical_Fastron_XHBCC</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65711e0e-48e0-42e9-a9f3-c99cb1ef29aa</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IXTP120P065T</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ki_keywords" value="HEXFET N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54e6742c-5bc2-4024-bedc-d29a6f4fb3bb</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>8.2kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7622756d-f0c2-4e95-8247-644260f79a8b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3a2e5c2-f806-4c8d-9e5c-49c57ab543e6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71869de3-8358-48ad-a762-09f9ce51c8fa</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fb59032-8409-4e9b-b4f3-c0ba9f667b3f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NRF24L01_Breakout</value>
+      <footprint>RF_Module:nRF24L01_Breakout</footprint>
+      <datasheet>http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</datasheet>
+      <libsource lib="RF" part="NRF24L01_Breakout" description="Ultra low power 2.4GHz RF Transceiver, Carrier PCB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Ultra low power 2.4GHz RF Transceiver, Carrier PCB"/>
+      <property name="ki_keywords" value="Low Power RF Transceiver breakout carrier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46c306c1-884d-4b68-b294-af8dd6cf57e5</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>STM32F103C8T6</value>
+      <footprint>Library:STM32F103C8T6_pinout</footprint>
+      <libsource lib="STM32F103C8T6" part="STM32F103C8T6_pinout" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2455ba8-4d19-4510-a658-109669ba279a</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd4d3185-b3b2-402d-bf4f-f9ec7d4fffa9</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <property name="ki_description" value="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52b4f5b3-63c4-4122-ae11-9b104c1c3f0c</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>CD40109BE</value>
+      <footprint>CD40109BE:DIP794W45P254L1969H508Q16</footprint>
+      <fields>
+        <field name="Check_prices">https://www.snapeda.com/parts/CD40109BE/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="Description">
+CMOS Quad Low-to-High Voltage Level Shifter (20V Rating)
+</field>
+        <field name="DigiKey_Part_Number">2156-CD40109BE-ND</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="MP">CD40109BE</field>
+        <field name="Package">PDIP-16 Texas Instruments</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78965&amp;manufacturer=Texas Instruments&amp;part_name=CD40109BE&amp;search_term=cd40109be</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CD40109BE/Texas+Instruments/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="CD40109BE" part="CD40109BE" description=""/>
+      <property name="DigiKey_Part_Number" value="2156-CD40109BE-ND"/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78965&amp;manufacturer=Texas Instruments&amp;part_name=CD40109BE&amp;search_term=cd40109be"/>
+      <property name="Package" value="PDIP-16 Texas Instruments"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/CD40109BE/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="CD40109BE"/>
+      <property name="Description" value="&#xA;CMOS Quad Low-to-High Voltage Level Shifter (20V Rating)&#xA;"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/CD40109BE/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbea5814-03f1-4134-9964-43a92dcf8311</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>3522-2</value>
+      <footprint>3522-2:FUSE_3522-2</footprint>
+      <fields>
+        <field name="Check_prices">https://www.snapeda.com/parts/3522-2/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Fuse Holder, Auto Blade, THM, Vertical, 1 Cell, Fuse Size Std., 20 A | Keystone Electronics 3522-2
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.73mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">3522-2</field>
+        <field name="PARTREV">J</field>
+        <field name="Package">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=278059&amp;manufacturer=Keystone Electronics&amp;part_name=3522-2&amp;search_term=keystone 3522-2</field>
+        <field name="RS_Components_1676068_Purchase_URL">https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/fuse-holders/1676068//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-1676068/?unipart_id=278059&amp;manufacturer=Keystone Electronics&amp;part_name=3522-2&amp;search_term=keystone 3522-2</field>
+        <field name="SNAPEDA_PN">3522-2</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/3522-2/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="3522-2" part="3522-2" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="6.73mm"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/3522-2/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="J"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/3522-2/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="3522-2"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=278059&amp;manufacturer=Keystone Electronics&amp;part_name=3522-2&amp;search_term=keystone 3522-2"/>
+      <property name="Description" value="&#xA;Fuse Holder, Auto Blade, THM, Vertical, 1 Cell, Fuse Size Std., 20 A | Keystone Electronics 3522-2&#xA;"/>
+      <property name="SNAPEDA_PN" value="3522-2"/>
+      <property name="RS_Components_1676068_Purchase_URL" value="https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/fuse-holders/1676068//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-1676068/?unipart_id=278059&amp;manufacturer=Keystone Electronics&amp;part_name=3522-2&amp;search_term=keystone 3522-2"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kikad_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>544281e3-66c8-4ef3-99b7-56a402d07021</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="236-102_1">
+      <docs>236-102</docs>
+      <footprints>
+        <fp>CONN_236-102_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">236-102</field>
+        <field name="Footprint">CONN_236-102_WAG</field>
+        <field name="Datasheet">236-102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="236-102_2">
+      <docs>236-102</docs>
+      <footprints>
+        <fp>CONN_236-102_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">236-102</field>
+        <field name="Footprint">CONN_236-102_WAG</field>
+        <field name="Datasheet">236-102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="236-102_3">
+      <docs>236-102</docs>
+      <footprints>
+        <fp>CONN_236-102_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">236-102</field>
+        <field name="Footprint">236-102:CONN_236-102_WAG</field>
+        <field name="Datasheet">236-102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="236-102_4">
+      <docs>236-102</docs>
+      <footprints>
+        <fp>CONN_236-102_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J15</field>
+        <field name="Value">236-102</field>
+        <field name="Footprint">236-102:CONN_236-102_WAG</field>
+        <field name="Datasheet">236-102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="236-102_5">
+      <docs>236-102</docs>
+      <footprints>
+        <fp>CONN_236-102_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J16</field>
+        <field name="Value">236-102</field>
+        <field name="Footprint">236-102:CONN_236-102_WAG</field>
+        <field name="Datasheet">236-102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="236-104_1">
+      <docs>236-104</docs>
+      <footprints>
+        <fp>CONN_236-104_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J10</field>
+        <field name="Value">236-104</field>
+        <field name="Footprint">CONN_236-104_WAG</field>
+        <field name="Datasheet">236-104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="236-104_4">
+      <docs>236-104</docs>
+      <footprints>
+        <fp>CONN_236-104_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J11</field>
+        <field name="Value">236-104</field>
+        <field name="Footprint">CONN_236-104_WAG</field>
+        <field name="Datasheet">236-104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="236-102" part="236-102">
+      <docs>236-102</docs>
+      <footprints>
+        <fp>CONN_236-102_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">236-102</field>
+        <field name="Footprint">CONN_236-102_WAG</field>
+        <field name="Datasheet">236-102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="236-104" part="236-104">
+      <docs>236-104</docs>
+      <footprints>
+        <fp>CONN_236-104_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">236-104</field>
+        <field name="Footprint">CONN_236-104_WAG</field>
+        <field name="Datasheet">236-104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="236-744" part="236-744">
+      <docs>236-744</docs>
+      <footprints>
+        <fp>236-744_WAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">236-744</field>
+        <field name="Footprint">236-744_WAG</field>
+        <field name="Datasheet">236-744</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="3522-2" part="3522-2">
+      <fields>
+        <field name="Reference">X1</field>
+        <field name="Value">3522-2</field>
+        <field name="Footprint">3522-2:FUSE_3522-2</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.73mm</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/3522-2/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">J</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/3522-2/Keystone+Electronics/view-part/?ref=snap</field>
+        <field name="MP">3522-2</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=278059&amp;manufacturer=Keystone Electronics&amp;part_name=3522-2&amp;search_term=keystone 3522-2</field>
+        <field name="Description">
+Fuse Holder, Auto Blade, THM, Vertical, 1 Cell, Fuse Size Std., 20 A | Keystone Electronics 3522-2
+</field>
+        <field name="SNAPEDA_PN">3522-2</field>
+        <field name="RS_Components_1676068_Purchase_URL">https://www.snapeda.com/api/url_track_click/https%253A//uk.rs-online.com/web/p/fuse-holders/1676068//%253Futm_campaign%253Dbuynow%2526utm_medium%253Daggregator%2526utm_source%253Dsnapeda%2526cm_mmc%253Daff-_-uk-_-snapeda-_-1676068/?unipart_id=278059&amp;manufacturer=Keystone Electronics&amp;part_name=3522-2&amp;search_term=keystone 3522-2</field>
+        <field name="MANUFACTURER">Keystone</field>
+      </fields>
+      <pins>
+        <pin num="1A" name="" type="passive"/>
+        <pin num="1B" name="" type="passive"/>
+        <pin num="2A" name="" type="passive"/>
+        <pin num="2B" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BZX85C10-TAP" part="BZX85C10-TAP">
+      <docs>BZX85C10-TAP</docs>
+      <footprints>
+        <fp>DO-41_VIS</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CR1</field>
+        <field name="Value">BZX85C10-TAP</field>
+        <field name="Footprint">DO-41_VIS</field>
+        <field name="Datasheet">BZX85C10-TAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD40109BE" part="CD40109BE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD40109BE</field>
+        <field name="Footprint">CD40109BE:DIP794W45P254L1969H508Q16</field>
+        <field name="DigiKey_Part_Number">2156-CD40109BE-ND</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=78965&amp;manufacturer=Texas Instruments&amp;part_name=CD40109BE&amp;search_term=cd40109be</field>
+        <field name="Package">PDIP-16 Texas Instruments</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CD40109BE/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">CD40109BE</field>
+        <field name="Description">
+CMOS Quad Low-to-High Voltage Level Shifter (20V Rating)
+</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CD40109BE/Texas+Instruments/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="EN_A" type="input"/>
+        <pin num="3" name="A" type="input"/>
+        <pin num="4" name="E" type="output"/>
+        <pin num="5" name="F" type="output"/>
+        <pin num="6" name="B" type="input"/>
+        <pin num="7" name="EN_B" type="input"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="EN_C" type="input"/>
+        <pin num="10" name="C" type="input"/>
+        <pin num="11" name="G" type="output"/>
+        <pin num="13" name="H" type="output"/>
+        <pin num="14" name="D" type="input"/>
+        <pin num="15" name="EN_D" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HCPL-2531" part="HCPL-2531">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">HCPL-2531</field>
+        <field name="Footprint">HCPL-2531:DIL08</field>
+        <field name="MF">Broadcom Limited</field>
+        <field name="Description">
+Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
+</field>
+        <field name="Package">DIP-8 Broadcom / Avago</field>
+        <field name="MPN">HCPL-2531A-000E</field>
+        <field name="Price">None</field>
+        <field name="OC_FARNELL">8550026</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=snap</field>
+        <field name="MP">HCPL-2531</field>
+        <field name="OC_NEWARK">88H7847</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/HCPL-2531/Broadcom+Limited/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VF1+" type="power_in"/>
+        <pin num="2" name="VF1-" type="power_in"/>
+        <pin num="3" name="VF2-" type="power_in"/>
+        <pin num="4" name="VF2+" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="V02" type="power_in"/>
+        <pin num="7" name="V01" type="power_in"/>
+        <pin num="8" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="P6KE27CA" part="P6KE27CA">
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">P6KE27CA</field>
+        <field name="Footprint">P6KE27CA:DIOAD1300W80L670D310</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.6 mm</field>
+        <field name="MF">Taiwan Semiconductor</field>
+        <field name="Package">DO-15 Taiwan Semiconductor</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/P6KE27CA/Taiwan+Semiconductor/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">K2105</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/P6KE27CA/Taiwan+Semiconductor/view-part/?ref=snap</field>
+        <field name="MP">P6KE27CA</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4809733&amp;manufacturer=Taiwan Semiconductor&amp;part_name=P6KE27CA&amp;search_term=p6ke27ca</field>
+        <field name="Description">
+600W, 27V, 5%, Bidirectional, TVS
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiwan Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF" part="NRF24L01_Breakout">
+      <description>Ultra low power 2.4GHz RF Transceiver, Carrier PCB</description>
+      <docs>http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</docs>
+      <footprints>
+        <fp>nRF24L01*Breakout*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NRF24L01_Breakout</field>
+        <field name="Footprint">RF_Module:nRF24L01_Breakout</field>
+        <field name="Datasheet">http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="~{CSN}" type="input"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="MISO" type="output"/>
+        <pin num="8" name="IRQ" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="STM32F103C8T6" part="STM32F103C8T6_pinout">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">STM32F103C8T6</field>
+        <field name="Footprint">Library:STM32F103C8T6_pinout</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="3v" name="3V3" type="power_in"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5v" name="5V" type="power_in"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="10" name="PA0" type="bidirectional"/>
+        <pin num="11" name="PA1" type="bidirectional"/>
+        <pin num="12" name="PA2" type="bidirectional"/>
+        <pin num="13" name="PA3" type="bidirectional"/>
+        <pin num="14" name="PA4" type="bidirectional"/>
+        <pin num="15" name="PA5" type="bidirectional"/>
+        <pin num="16" name="PA6" type="bidirectional"/>
+        <pin num="17" name="PA7" type="bidirectional"/>
+        <pin num="18" name="PB0" type="bidirectional"/>
+        <pin num="19" name="PB1" type="bidirectional"/>
+        <pin num="21" name="PB10" type="bidirectional"/>
+        <pin num="22" name="PB11" type="bidirectional"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA8" type="bidirectional"/>
+        <pin num="30" name="PA9" type="bidirectional"/>
+        <pin num="31" name="PA10" type="bidirectional"/>
+        <pin num="32" name="PA11" type="bidirectional"/>
+        <pin num="33" name="PA12" type="bidirectional"/>
+        <pin num="38" name="PA15" type="bidirectional"/>
+        <pin num="39" name="PB3" type="bidirectional"/>
+        <pin num="40" name="PB4" type="bidirectional"/>
+        <pin num="41" name="PB5" type="bidirectional"/>
+        <pin num="42" name="PB6" type="bidirectional"/>
+        <pin num="43" name="PB7" type="bidirectional"/>
+        <pin num="45" name="PB8" type="bidirectional"/>
+        <pin num="46" name="PB9" type="bidirectional"/>
+        <pin num="G" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF540N">
+      <description>33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF540N</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irf540n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="236-102">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/236-102/KiCADv6/2023-12-18_13-27-59.kicad_sym</uri>
+    </library>
+    <library logical="236-104">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/236-104/KiCADv6/2023-12-18_13-29-23.kicad_sym</uri>
+    </library>
+    <library logical="236-744">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/236-744/KiCADv6/2023-12-18_09-56-45.kicad_sym</uri>
+    </library>
+    <library logical="3522-2">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/3522-2/3522-2.kicad_sym</uri>
+    </library>
+    <library logical="BZX85C10-TAP">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/BZX85C10-TAP/KiCADv6/2023-12-17_14-57-45.kicad_sym</uri>
+    </library>
+    <library logical="CD40109BE">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/CD40109BE/CD40109BE.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="HCPL-2531">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/HCPL-2531/HCPL-2531.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="P6KE27CA">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/P6KE27CA/P6KE27CA.kicad_sym</uri>
+    </library>
+    <library logical="RF">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//RF.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="2" pinfunction="EN_A" pintype="input"/>
+      <node ref="U12" pin="7" pinfunction="EN_B" pintype="input"/>
+      <node ref="U2" pin="3v" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="IC2" pin="8" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="IC3" pin="8" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="U12" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+24V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pintype="unspecified"/>
+      <node ref="J18" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="/BAT_SW">
+      <node ref="J15" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="X1" pin="1A" pintype="passive"/>
+      <node ref="X1" pin="1B" pintype="passive"/>
+    </net>
+    <net code="5" name="DISK_DIR">
+      <node ref="IC1" pin="4" pinfunction="VF2+" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="DISK_PWM">
+      <node ref="IC1" pin="1" pinfunction="VF1+" pintype="power_in"/>
+      <node ref="U2" pin="17" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D3" pin="C" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="VF1-" pintype="power_in"/>
+      <node ref="IC1" pin="3" pinfunction="VF2-" pintype="power_in"/>
+      <node ref="IC1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="2" pinfunction="VF1-" pintype="power_in"/>
+      <node ref="IC2" pin="3" pinfunction="VF2-" pintype="power_in"/>
+      <node ref="IC2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="2" pinfunction="VF1-" pintype="power_in"/>
+      <node ref="IC3" pin="3" pinfunction="VF2-" pintype="power_in"/>
+      <node ref="IC3" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J10" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J11" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J12" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J12" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J13" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J14" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J17" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J17" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J18" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J9" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="G" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="HAND_DIR">
+      <node ref="U12" pin="6" pinfunction="B" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="HAND_END_LEFT">
+      <node ref="J13" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="29" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="HAND_END_RIGHT">
+      <node ref="J14" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="28" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="HAND_PWM">
+      <node ref="U12" pin="3" pinfunction="A" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(IC1-V01)">
+      <node ref="IC1" pin="7" pinfunction="V01" pintype="power_in"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="13" name="Net-(IC1-V02)">
+      <node ref="IC1" pin="6" pinfunction="V02" pintype="power_in"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="14" name="Net-(IC2-V01)">
+      <node ref="IC2" pin="7" pinfunction="V01" pintype="power_in"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="15" name="Net-(IC2-V02)">
+      <node ref="IC2" pin="6" pinfunction="V02" pintype="power_in"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="16" name="Net-(IC3-V01)">
+      <node ref="IC3" pin="7" pinfunction="V01" pintype="power_in"/>
+      <node ref="J16" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="17" name="Net-(IC3-V02)">
+      <node ref="IC3" pin="6" pinfunction="V02" pintype="power_in"/>
+      <node ref="J16" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J15" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="19" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J11-Pad4)">
+      <node ref="J11" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q2-G)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="unspecified"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q2-S)">
+      <node ref="D3" pin="A" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="X1" pin="2A" pintype="passive"/>
+      <node ref="X1" pin="2B" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(U3-IN)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="25" name="Net-(U12-E)">
+      <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U12" pin="4" pinfunction="E" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(U12-F)">
+      <node ref="J2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U12" pin="5" pinfunction="F" pintype="output"/>
+    </net>
+    <net code="27" name="OPT_END_DISK">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="46" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="OPT_END_WHEEL_LEFT">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="45" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="OPT_END_WHEEL_RIGHT">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="43" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="PA9">
+      <node ref="U1" pin="8" pinfunction="IRQ" pintype="output"/>
+      <node ref="U2" pin="30" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="PA10">
+      <node ref="U1" pin="3" pinfunction="CE" pintype="input"/>
+      <node ref="U2" pin="31" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="PA15">
+      <node ref="U1" pin="4" pinfunction="~{CSN}" pintype="input"/>
+      <node ref="U2" pin="38" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="PB3">
+      <node ref="U1" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U2" pin="39" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="PB4">
+      <node ref="U1" pin="7" pinfunction="MISO" pintype="output"/>
+      <node ref="U2" pin="40" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="PB5">
+      <node ref="U1" pin="6" pinfunction="MOSI" pintype="input"/>
+      <node ref="U2" pin="41" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J10" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="J11" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U2" pin="5v" pinfunction="5V" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="37" name="WHEEL_LEFT_DIR">
+      <node ref="IC2" pin="4" pinfunction="VF2+" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="WHEEL_LEFT_PWM">
+      <node ref="IC2" pin="1" pinfunction="VF1+" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="WHEEL_RIGHT_DIR">
+      <node ref="IC3" pin="4" pinfunction="VF2+" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="WHEEL_RIGHT_PWM">
+      <node ref="IC3" pin="1" pinfunction="VF1+" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(H1-Pad1)">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(H2-Pad1)">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="43" name="unconnected-(H3-Pad1)">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="44" name="unconnected-(U2-3V3-Pad3v)">
+      <node ref="U2" pin="3v" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="45" name="unconnected-(U2-GND-PadG)">
+      <node ref="U2" pin="G" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="46" name="unconnected-(U2-GND-PadG)_1">
+      <node ref="U2" pin="G" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="47" name="unconnected-(U2-NRST-Pad7)">
+      <node ref="U2" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="48" name="unconnected-(U2-PA0-Pad10)">
+      <node ref="U2" pin="10" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(U2-PA3-Pad13)">
+      <node ref="U2" pin="13" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(U2-PA11-Pad32)">
+      <node ref="U2" pin="32" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(U2-PA12-Pad33)">
+      <node ref="U2" pin="33" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(U2-PB6-Pad42)">
+      <node ref="U2" pin="42" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(U2-PB10-Pad21)">
+      <node ref="U2" pin="21" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U2-PB11-Pad22)">
+      <node ref="U2" pin="22" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U2-PB12-Pad25)">
+      <node ref="U2" pin="25" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(U2-PB13-Pad26)">
+      <node ref="U2" pin="26" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(U2-PB14-Pad27)">
+      <node ref="U2" pin="27" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(U2-PC13-Pad2)">
+      <node ref="U2" pin="2" pinfunction="PC13" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(U2-PC14-Pad3)">
+      <node ref="U2" pin="3" pinfunction="PC14" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(U2-PC15-Pad4)">
+      <node ref="U2" pin="4" pinfunction="PC15" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U2-VBAT-Pad1)">
+      <node ref="U2" pin="1" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="62" name="unconnected-(U12-C-Pad10)">
+      <node ref="U12" pin="10" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="63" name="unconnected-(U12-D-Pad14)">
+      <node ref="U12" pin="14" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="64" name="unconnected-(U12-EN_C-Pad9)">
+      <node ref="U12" pin="9" pinfunction="EN_C" pintype="input"/>
+    </net>
+    <net code="65" name="unconnected-(U12-EN_D-Pad15)">
+      <node ref="U12" pin="15" pinfunction="EN_D" pintype="input"/>
+    </net>
+    <net code="66" name="unconnected-(U12-G-Pad11)">
+      <node ref="U12" pin="11" pinfunction="G" pintype="output"/>
+    </net>
+    <net code="67" name="unconnected-(U12-H-Pad13)">
+      <node ref="U12" pin="13" pinfunction="H" pintype="output"/>
+    </net>
+  </nets>
+</export>

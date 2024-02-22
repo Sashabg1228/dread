@@ -8,25 +8,37 @@
 #ifndef INC_NRF24L01_H_
 #define INC_NRF24L01_H_
 
+typedef struct
+{
+  uint8_t hand_position;	// hand position
+  uint8_t left_speed;		// left wheel speed
+  uint8_t right_speed;		// right wheel speed
+  uint8_t weapon;		// weapon on/off
+} Payload;
+
+
+// read all registers of the RF module
+void NRF24_debug (void);
+
 
 // initialize the RF module
 void NRF24_init (void);
 
+
 // set up the TX mode
 void NRF24_TX_mode (uint8_t *address, uint16_t channel);
 // transmit the data
-uint8_t NRF24_transmit (uint8_t *data);
+uint8_t NRF24_transmit (Payload *payload);
+// send the payload to the RF module
+int load_payload (Payload *payload);
+
 
 // set up the RX mode
 void NRF24_RX_mode (uint8_t *address, uint16_t channel);
 // check if data is received on specific pipeline
 uint8_t is_data_received (int pipeline);
 // receive data
-void NRF24_receive (uint8_t *data);
-
-
-
-void NRF24_debug (void);
+int NRF24_receive (Payload *payload);
 
 
 /* Memory Map */

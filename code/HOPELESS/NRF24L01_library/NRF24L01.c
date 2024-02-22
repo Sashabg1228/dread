@@ -9,6 +9,7 @@
 #include "main.h"
 #include "NRF24L01.h"
 #include <string.h>
+#include <stdlib.h>
 
 extern SPI_HandleTypeDef hspi1;
 #define NRF24_SPI 	&hspi1
@@ -154,7 +155,7 @@ void NRF24_init (void)
   nrf24_write_reg(SETUP_AW, 0x03);	// TX/RX address length = 5 bytes
   nrf24_write_reg(SETUP_RETR, 0);	// No retransmissions
   nrf24_write_reg(RF_CH, 0);		// will be set up during TX or RX configuration
-  nrf24_write_reg(RF_SETUP, 0x06);	// Output power = 0db, data rate = 2 Mbps
+  nrf24_write_reg(RF_SETUP, 0x06);	// Output power = 0db, data rate = 1 Mbps
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -172,22 +173,30 @@ void NRF24_TX_mode (uint8_t *address, uint16_t channel)
   nrf24_write_reg(CONFIG, config);
 }
 
-int load_payload (uint8_t *data, size_t size)
+
+int load_payload (Payload *payload)
 {
-  if (32 < size)
+  if (32 < sizeof(Payload))
   {
       return 1; // too big size
   }
 
-  uint8_t buffer[33];
+  uint8_t *buffer = (uint8_t*) calloc(sizeof(Payload) + 1, sizeof(uint8_t));
+  if (NULL == buffer)
+  {
+      return 2; // calloc error
+  }
+
   buffer[0] = W_TX_PAYLOAD;
-  memcpy(buffer + 1, data, size);
+  memcpy(buffer + 1, payload, sizeof(Payload));
 
   // Pull CSN pin HIGH to LOW
   csn_unselect();
   csn_select();
 
-  HAL_SPI_Transmit(NRF24_SPI, buffer, size + 1, 1000);
+  HAL_SPI_Transmit(NRF24_SPI, buffer, sizeof(Payload) + 1, 1000);
+
+  free(buffer);
 
   // Pull CSN pin HIGH to unselect the device
   csn_unselect();
@@ -195,9 +204,9 @@ int load_payload (uint8_t *data, size_t size)
 }
 
 // transmit the data
-uint8_t NRF24_transmit (uint8_t *data)
+uint8_t NRF24_transmit (Payload *payload)
 {
-  load_payload(data, 32);
+  load_payload(payload);
 
 
   ce_enable();
@@ -226,9 +235,6 @@ uint8_t NRF24_transmit (uint8_t *data)
 // set up the RX mode
 void NRF24_RX_mode (uint8_t *address, uint16_t channel)
 {
-  // disable the device before configuring
-  // ce_disable();
-
   nrf24_write_reg(RF_CH, channel);		// select the frequency channel
 
   // select data pipe 1
@@ -248,6 +254,7 @@ void NRF24_RX_mode (uint8_t *address, uint16_t channel)
   // enable the device after configuring
   ce_enable();
 }
+
 // check if data is received on specific pipeline
 uint8_t is_data_received (int pipenum)
 {
@@ -260,33 +267,46 @@ uint8_t is_data_received (int pipenum)
     nrf24_write_reg(STATUS, (1 << 6));
 
     csn_unselect();
-    return 0;	// success
+    return 0;	// data received; success
   }
 
   csn_unselect();
-  return 1;	// failure
+  return 1;	// data not received; success
 }
-// receive data
-void NRF24_receive (uint8_t *data)
-{
-  //uint8_t cmd;
 
+// receive data
+int NRF24_receive (Payload *payload)
+{
   // select the device
   csn_select();
 
   // payload command
-  uint8_t TX_buffer[33];
+  uint8_t *TX_buffer = (uint8_t*) calloc(sizeof(Payload) + 1, sizeof(uint8_t));
+  if (NULL == TX_buffer)
+  {
+    return 2; // calloc error
+  }
+
   TX_buffer[0] = R_RX_PAYLOAD;
-  uint8_t RX_buffer[33];
+
+  uint8_t *RX_buffer = (uint8_t*) calloc(sizeof(Payload) + 1, sizeof(uint8_t));
+  if (NULL == RX_buffer)
+  {
+    return 2; // calloc error
+  }
 
   // receive the payload
-  HAL_SPI_TransmitReceive(NRF24_SPI, TX_buffer, RX_buffer, 33, 1000);
+  HAL_SPI_TransmitReceive(NRF24_SPI, TX_buffer, RX_buffer, sizeof(Payload) + 1, 1000);
+  free(TX_buffer);
 
-  memcpy(data, RX_buffer + 1, 32);
+  memcpy(payload, RX_buffer + 1, 32);
+  free(RX_buffer);
 
   HAL_Delay(1);
 
   // unselect the device
   csn_unselect();
+
+  return 0; // success
 }
 

@@ -1,0 +1,7 @@
+../Core/Src/main.c:73:5:main	3
+../Core/Src/main.c:142:6:SystemClock_Config	4
+../Core/Src/main.c:190:6:HAL_TIM_PeriodElapsedCallback	1
+../Core/Src/main.c:200:6:HAL_GPIO_EXTI_Callback	4
+../Core/Src/main.c:216:6:payload_manipulation	3
+../Core/Src/main.c:228:6:HAL_ADC_ConvCpltCallback	3
+../Core/Src/main.c:247:6:Error_Handler	1

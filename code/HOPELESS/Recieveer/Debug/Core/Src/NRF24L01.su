@@ -1,0 +1,17 @@
+../Core/Src/NRF24L01.c:18:6:ce_enable	8	static
+../Core/Src/NRF24L01.c:22:6:ce_disable	8	static
+../Core/Src/NRF24L01.c:27:6:csn_select	8	static
+../Core/Src/NRF24L01.c:31:6:csn_unselect	8	static
+../Core/Src/NRF24L01.c:38:6:nrf24_write_reg	24	static
+../Core/Src/NRF24L01.c:53:6:nrf24_write_reg_multi	32	static
+../Core/Src/NRF24L01.c:73:9:nrf24_read_reg	24	static
+../Core/Src/NRF24L01.c:89:6:nrf24_read_reg_multi	24	static
+../Core/Src/NRF24L01.c:103:6:nrf24_write_cmd	16	static
+../Core/Src/NRF24L01.c:109:6:NRF24_debug	56	static
+../Core/Src/NRF24L01.c:147:6:NRF24_init	8	static
+../Core/Src/NRF24L01.c:165:6:NRF24_TX_mode	24	static
+../Core/Src/NRF24L01.c:176:5:load_payload	24	static
+../Core/Src/NRF24L01.c:206:5:NRF24_transmit	24	static
+../Core/Src/NRF24L01.c:235:6:NRF24_RX_mode	24	static
+../Core/Src/NRF24L01.c:259:9:is_data_received	24	static
+../Core/Src/NRF24L01.c:278:5:NRF24_receive	40	static

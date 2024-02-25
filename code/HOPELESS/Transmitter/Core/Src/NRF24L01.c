@@ -173,7 +173,7 @@ void NRF24_TX_mode (const uint8_t *address, const uint16_t channel)
   nrf24_write_reg(CONFIG, config);
 }
 
-int load_payload (const Payload *payload)
+int push_payload (const Payload *payload)
 {
   if (32 < sizeof(Payload))
   {
@@ -205,7 +205,7 @@ int load_payload (const Payload *payload)
 // transmit the data
 int NRF24_transmit (const Payload *payload)
 {
-  load_payload(payload);
+  push_payload(payload);
 
 
   ce_enable();
@@ -256,7 +256,7 @@ void NRF24_RX_mode (const uint8_t *address, const uint16_t channel)
 }
 
 // check if data is received on specific pipeline
-uint8_t is_data_received (const int pipenum)
+int is_data_received (const int pipenum)
 {
   csn_select();
 

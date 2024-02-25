@@ -34,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := NRF24L01_F103
+BUILD_ARTIFACT_NAME := Transmitter
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-NRF24L01_F103.elf \
+Transmitter.elf \
 
 MAP_FILES += \
-NRF24L01_F103.map \
+Transmitter.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-NRF24L01_F103.list \
+Transmitter.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: NRF24L01_F103.elf secondary-outputs
+main-build: Transmitter.elf secondary-outputs
 
 # Tool invocations
-NRF24L01_F103.elf NRF24L01_F103.map: $(OBJS) $(USER_OBJS) /Users/sasukoboy/STM32CubeIDE/workspace_1.14.0/NRF24L01_F103/STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "NRF24L01_F103.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/Users/sasukoboy/STM32CubeIDE/workspace_1.14.0/NRF24L01_F103/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NRF24L01_F103.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Transmitter.elf Transmitter.map: $(OBJS) $(USER_OBJS) /Users/sasukoboy/STM32CubeIDE/workspace_1.14.0/Transmitter/STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Transmitter.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/Users/sasukoboy/STM32CubeIDE/workspace_1.14.0/Transmitter/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Transmitter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,14 +70,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-NRF24L01_F103.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "NRF24L01_F103.list"
+Transmitter.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Transmitter.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) NRF24L01_F103.elf NRF24L01_F103.list NRF24L01_F103.map default.size.stdout
+	-$(RM) Transmitter.elf Transmitter.list Transmitter.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

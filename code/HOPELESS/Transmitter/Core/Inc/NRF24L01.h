@@ -10,9 +10,9 @@
 
 typedef struct
 {
-  uint8_t hand_position;	// hand position	(-100 ~ +100)
-  uint8_t left_speed;		// left wheel speed 	(-100 ~ +100)
-  uint8_t right_speed;		// right wheel speed	(-100 ~ +100)
+  int8_t hand_position;	// hand position	(-100 ~ +100)
+  int8_t left_speed;		// left wheel speed 	(-100 ~ +100)
+  int8_t right_speed;		// right wheel speed	(-100 ~ +100)
   uint8_t weapon;		// weapon on/off	   (0 / 1)
 } Payload;
 
@@ -30,13 +30,13 @@ void NRF24_TX_mode (const uint8_t *address, const uint16_t channel);
 // transmit the data
 int NRF24_transmit (const Payload *payload);
 // send the payload to the RF module
-int load_payload (const Payload *payload);
+int push_payload (const Payload *payload);
 
 
 // set up the RX mode
 void NRF24_RX_mode (const uint8_t *address, const uint16_t channel);
 // check if data is received on specific pipeline
-uint8_t is_data_received (const int pipeline);
+int is_data_received (const int pipeline);
 // receive data
 int NRF24_receive (Payload *payload);
 

@@ -10,7 +10,7 @@
 
 typedef struct
 {
-  int8_t hand_position;	// hand position	(-100 ~ +100)
+  int8_t hand_position;		// hand position	(-100 ~ +100)
   int8_t left_speed;		// left wheel speed 	(-100 ~ +100)
   int8_t right_speed;		// right wheel speed	(-100 ~ +100)
   uint8_t weapon;		// weapon on/off	   (0 / 1)

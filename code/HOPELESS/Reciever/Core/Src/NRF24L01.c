@@ -143,7 +143,6 @@ void NRF24_debug (void)
 
 
 // initialize the RF module
-// wait 1.5 ms after completion
 void NRF24_init (void)
 {
   // disable the device before initializing
@@ -169,7 +168,7 @@ void NRF24_TX_mode (const uint8_t *address, const uint16_t channel)
 
   // power up the device
   uint8_t config = nrf24_read_reg(CONFIG);
-  config |= (1 << 4) | (1 << 1);		// MAX_RT IRQ disabled; Power up; PTX
+  config |= (1 << 1);		// Power up; PTX
   nrf24_write_reg(CONFIG, config);
 }
 
@@ -207,11 +206,9 @@ int NRF24_transmit (const Payload *payload)
 {
   push_payload(payload);
 
-
   ce_enable();
   HAL_Delay(1); // data send
   ce_disable();
-
 
   csn_select();
 
@@ -247,7 +244,6 @@ void NRF24_RX_mode (const uint8_t *address, const uint16_t channel)
 
   // power up the device
   uint8_t config = nrf24_read_reg(CONFIG);
-  //config |= (1 << 4) | (1 << 1) | (1 << 0);		// MAX_RT IRQ disabled; Power up; PRX
   config |= (1 << 1) | (1 << 0);		// Power up; PRX
   nrf24_write_reg(CONFIG, config);
 
@@ -290,7 +286,6 @@ int NRF24_receive (Payload *payload)
   HAL_SPI_TransmitReceive(NRF24_SPI, TX_buffer, RX_buffer, sizeof(Payload) + 1, 1000);
 
   memcpy(payload, RX_buffer + 1, sizeof(Payload) + 1);
-
 
   HAL_Delay(1);
 

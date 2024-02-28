@@ -54,8 +54,8 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, HAND_DIR_Pin|DISK_DIR_Pin|WHEEL_LEFT_DIR_Pin|WHEEL_RIGHT_DIR_Pin
-                          |NRF24L01_CE_Pin|NRF24L01_CSN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, HAND_PWM_Pin|HAND_DIR_Pin|DISK_DIR_Pin|WHEEL_LEFT_DIR_Pin
+                          |WHEEL_RIGHT_DIR_Pin|NRF24L01_CE_Pin|NRF24L01_CSN_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : PC13 */
   GPIO_InitStruct.Pin = GPIO_PIN_13;
@@ -65,9 +65,9 @@ void MX_GPIO_Init(void)
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PAPin PAPin PAPin PAPin
-                           PAPin PAPin */
-  GPIO_InitStruct.Pin = HAND_DIR_Pin|DISK_DIR_Pin|WHEEL_LEFT_DIR_Pin|WHEEL_RIGHT_DIR_Pin
-                          |NRF24L01_CE_Pin|NRF24L01_CSN_Pin;
+                           PAPin PAPin PAPin */
+  GPIO_InitStruct.Pin = HAND_PWM_Pin|HAND_DIR_Pin|DISK_DIR_Pin|WHEEL_LEFT_DIR_Pin
+                          |WHEEL_RIGHT_DIR_Pin|NRF24L01_CE_Pin|NRF24L01_CSN_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -78,6 +78,12 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING_FALLING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PtPin */
+  GPIO_InitStruct.Pin = NRF24L01_IRQ_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(NRF24L01_IRQ_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PBPin PBPin PBPin */
   GPIO_InitStruct.Pin = OPT_END_WHEEL_RIGHT_Pin|OPT_END_WHEEL_LEFT_Pin|OPT_END_DISK_Pin;

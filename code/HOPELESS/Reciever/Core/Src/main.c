@@ -61,15 +61,14 @@ void SystemClock_Config(void);
 
 const uint8_t rx_address[] = {0xEE, 0xDD, 0xCC, 0xBB, 0xAA};
 
-Payload payload;
-uint8_t payload_recieved = 0;
+Payload payload = {0, 0, 0, 0};
 
 // 0 = disk;	1 = right;	2 = left
 volatile uint8_t cycles[3] = {0, 0, 0};
 volatile uint8_t enable[3] = {1, 1, 1};
-// 0 = left;	1 = right
+// 0 = right(down)	1 = left(up)
 volatile uint8_t hand_enable[2] = {1, 1};
-
+volatile uint8_t hand_counter = 0;
 /* USER CODE END 0 */
 
 /**
@@ -109,13 +108,12 @@ int main(void)
   NRF24_init();
   NRF24_RX_mode(rx_address, 120);
 
-  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
-
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_3);
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_4);
 
   HAL_TIM_Base_Start_IT(&htim4);
+  HAL_TIM_Base_Start_IT(&htim2);
 
   /* USER CODE END 2 */
 
@@ -128,14 +126,8 @@ int main(void)
     {
       if (0 == NRF24_receive(&payload))
       {
-	payload_recieved = 1;
+	  unload_payload();
       }
-    }
-
-    if (payload_recieved)
-    {
-      payload_recieved = 0;
-      unload_payload();
     }
     /* USER CODE END WHILE */
 
@@ -215,16 +207,30 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 
   if (GPIO_Pin == HAND_END_RIGHT_Pin)
   {
-    hand_enable[1] = !hand_enable[1];
+    hand_enable[0] = !hand_enable[0];
   }
   if (GPIO_Pin == HAND_END_LEFT_Pin)
   {
-    hand_enable[0] = !hand_enable[0];
+    hand_enable[1] = !hand_enable[1];
   }
 }
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim)
 {
+  if (&htim2 == htim)
+  {
+    if (2 * payload.hand_position != hand_counter)
+    {
+      hand_counter++;
+      HAL_GPIO_TogglePin(HAND_PWM_GPIO_Port, HAND_PWM_Pin);
+    }
+    else
+    {
+      payload.hand_position = 0;
+      hand_counter = 0;
+    }
+  }
+
   if (&htim4 == htim)
   {
     for (int i = 0; i < 3; i++)
@@ -274,16 +280,6 @@ void get_brushed_DIR(void)
 
 void get_brushed_PWM(void)
 {
-  if (payload.left_speed > 100)
-  {
-    payload.left_speed = 100;
-  }
-
-  if (payload.right_speed > 100)
-  {
-    payload.right_speed = 100;
-  }
-
   // ARR => TOP
   TIM3->CCR2 = enable[0] * payload.weapon * TIM3->ARR;
   TIM3->CCR3 = enable[2] * payload.left_speed * TIM3->ARR;
@@ -292,29 +288,19 @@ void get_brushed_PWM(void)
 
 void get_hand_DIR(void)
 {
-  if (hand_enable[1] && payload.hand_position < 0)
+  if (hand_enable[0] && payload.hand_position < 0)
   {
     payload.hand_position *= -1;
     HAL_GPIO_WritePin(HAND_DIR_GPIO_Port, HAND_DIR_Pin, RESET);
   }
-  else if (hand_enable[0])
+  else if (hand_enable[1])
   {
     HAL_GPIO_WritePin(HAND_DIR_GPIO_Port, HAND_DIR_Pin, SET);
   }
   else
   {
-    payload.hand_position -= 5; // step
+    payload.hand_position = 0; // stop
   }
-}
-
-void get_hand_PWM(void)
-{
-  if (payload.hand_position > 100)
-  {
-    payload.hand_position = 100;
-  }
-
-  TIM2->CCR2 = payload.hand_position * TIM2->ARR;
 }
 
 void unload_payload(void)
@@ -323,7 +309,6 @@ void unload_payload(void)
   get_brushed_PWM();
 
   get_hand_DIR();
-  get_hand_PWM();
 }
 
 /* USER CODE END 4 */

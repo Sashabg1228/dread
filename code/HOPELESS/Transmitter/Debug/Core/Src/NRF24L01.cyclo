@@ -8,10 +8,10 @@
 ../Core/Src/NRF24L01.c:89:6:nrf24_read_reg_multi	1
 ../Core/Src/NRF24L01.c:103:6:nrf24_write_cmd	1
 ../Core/Src/NRF24L01.c:109:6:NRF24_debug	1
-../Core/Src/NRF24L01.c:147:6:NRF24_init	1
-../Core/Src/NRF24L01.c:165:6:NRF24_TX_mode	1
-../Core/Src/NRF24L01.c:176:5:push_payload	2
-../Core/Src/NRF24L01.c:206:5:NRF24_transmit	3
-../Core/Src/NRF24L01.c:235:6:NRF24_RX_mode	1
-../Core/Src/NRF24L01.c:259:5:is_data_received	3
-../Core/Src/NRF24L01.c:278:5:NRF24_receive	1
+../Core/Src/NRF24L01.c:146:6:NRF24_init	1
+../Core/Src/NRF24L01.c:164:6:NRF24_TX_mode	1
+../Core/Src/NRF24L01.c:175:5:push_payload	2
+../Core/Src/NRF24L01.c:205:5:NRF24_transmit	3
+../Core/Src/NRF24L01.c:232:6:NRF24_RX_mode	1
+../Core/Src/NRF24L01.c:255:5:is_data_received	3
+../Core/Src/NRF24L01.c:274:5:NRF24_receive	1

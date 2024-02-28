@@ -58,9 +58,9 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 const uint8_t tx_address[] = {0xEE, 0xDD, 0xCC, 0xBB, 0xAA};
-Payload payload = {100, 50, 50, 1};
 
-const uint8_t step = 5; 	// period from end to end state = 2 seconds
+Payload payload = {0, 0, 0, 0};
+const uint8_t step = 5; 	// period from end to end state = 1 seconds
 uint8_t hand_up = 0, hand_down = 0;
 
 volatile uint8_t send_flag = 0;
@@ -100,13 +100,13 @@ int main(void)
   MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
 
+  NRF24_init();
+  NRF24_TX_mode(tx_address, 120);
+
   HAL_TIM_Base_Start_IT(&htim4);
 
   HAL_ADCEx_Calibration_Start(&hadc1);
   HAL_ADCEx_Calibration_Start(&hadc2);
-
-  NRF24_init();
-  NRF24_TX_mode(tx_address, 120);
 
   /* USER CODE END 2 */
 

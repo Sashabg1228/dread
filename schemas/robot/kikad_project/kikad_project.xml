@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/kikad_project.kicad_sch</source>
-    <date>Friday, February 16, 2024 at 10:26:15 AM</date>
+    <date>Thursday, February 29, 2024 at 11:07:16 AM</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -124,7 +124,7 @@
       <tstamps>c912e6e6-7590-44d7-bbb3-0c24db972d03</tstamps>
     </comp>
     <comp ref="C10">
-      <value>10nF</value>
+      <value>100nF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -135,7 +135,7 @@
       <tstamps>56637ac2-fe57-422a-83cf-22b9db41c298</tstamps>
     </comp>
     <comp ref="C11">
-      <value>10F</value>
+      <value>100nF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -146,7 +146,7 @@
       <tstamps>9939b340-1e5f-48fd-bca7-9b6dc5014895</tstamps>
     </comp>
     <comp ref="C12">
-      <value>10F</value>
+      <value>100nF</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -553,7 +553,7 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
       <sheetpath names="/" tstamps="/"/>
       <tstamps>65711e0e-48e0-42e9-a9f3-c99cb1ef29aa</tstamps>
     </comp>
-    <comp ref="Q2">
+    <comp ref="Q1">
       <value>IXTP120P065T</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
       <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
@@ -577,7 +577,7 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
       <tstamps>7622756d-f0c2-4e95-8247-644260f79a8b</tstamps>
     </comp>
     <comp ref="R2">
-      <value>68R</value>
+      <value>680R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -588,7 +588,7 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
       <tstamps>c3a2e5c2-f806-4c8d-9e5c-49c57ab543e6</tstamps>
     </comp>
     <comp ref="R3">
-      <value>68R</value>
+      <value>680R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -599,7 +599,7 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
       <tstamps>71869de3-8358-48ad-a762-09f9ce51c8fa</tstamps>
     </comp>
     <comp ref="R4">
-      <value>68R</value>
+      <value>680R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -624,11 +624,11 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
     <comp ref="U2">
       <value>STM32F103C8T6</value>
       <footprint>Library:STM32F103C8T6_pinout</footprint>
-      <libsource lib="STM32F103C8T6" part="STM32F103C8T6_pinout" description=""/>
+      <libsource lib="Robot_Symbols" part="STM32F103C8T6_pinout" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="kikad_project.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a2455ba8-4d19-4510-a658-109669ba279a</tstamps>
+      <tstamps>88c30a05-f070-4dee-97be-cf6b20f0c625</tstamps>
     </comp>
     <comp ref="U3">
       <value>L7805</value>
@@ -1132,20 +1132,22 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
         <pin num="3" name="OUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="STM32F103C8T6" part="STM32F103C8T6_pinout">
+    <libpart lib="Robot_Symbols" part="STM32F103C8T6_pinout">
       <fields>
-        <field name="Reference">U2</field>
+        <field name="Reference">U</field>
         <field name="Value">STM32F103C8T6</field>
-        <field name="Footprint">Library:STM32F103C8T6_pinout</field>
+        <field name="Footprint">STM32F103C8T6_pinout:STM32F103C8T6_pinout</field>
       </fields>
       <pins>
         <pin num="1" name="VBAT" type="power_in"/>
         <pin num="2" name="PC13" type="bidirectional"/>
         <pin num="3" name="PC14" type="bidirectional"/>
-        <pin num="3v" name="3V3" type="power_in"/>
         <pin num="4" name="PC15" type="bidirectional"/>
-        <pin num="5v" name="5V" type="power_in"/>
+        <pin num="5" name="3V3" type="power_in"/>
+        <pin num="6" name="3V3" type="power_in"/>
         <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="5V" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
         <pin num="10" name="PA0" type="bidirectional"/>
         <pin num="11" name="PA1" type="bidirectional"/>
         <pin num="12" name="PA2" type="bidirectional"/>
@@ -1156,8 +1158,10 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
         <pin num="17" name="PA7" type="bidirectional"/>
         <pin num="18" name="PB0" type="bidirectional"/>
         <pin num="19" name="PB1" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
         <pin num="21" name="PB10" type="bidirectional"/>
         <pin num="22" name="PB11" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
         <pin num="25" name="PB12" type="bidirectional"/>
         <pin num="26" name="PB13" type="bidirectional"/>
         <pin num="27" name="PB14" type="bidirectional"/>
@@ -1175,7 +1179,6 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
         <pin num="43" name="PB7" type="bidirectional"/>
         <pin num="45" name="PB8" type="bidirectional"/>
         <pin num="46" name="PB9" type="bidirectional"/>
-        <pin num="G" name="GND" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Transistor_FET" part="IRF540N">
@@ -1234,6 +1237,9 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
     <library logical="Regulator_Linear">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
+    <library logical="Robot_Symbols">
+      <uri>/Users/sasukoboy/Documents/GitHub/dread/schemas/robot/kikad_project/../../libraries/STM32F103C8T6_pinout/STM32F103C8T6.kicad_sym</uri>
+    </library>
     <library logical="Transistor_FET">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
     </library>
@@ -1246,7 +1252,8 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
       <node ref="U12" pin="1" pinfunction="VCC" pintype="power_in"/>
       <node ref="U12" pin="2" pinfunction="EN_A" pintype="input"/>
       <node ref="U12" pin="7" pinfunction="EN_B" pintype="input"/>
-      <node ref="U2" pin="3v" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="3V3" pintype="power_in"/>
     </net>
     <net code="2" name="+5V">
       <node ref="C5" pin="1" pintype="passive"/>
@@ -1265,7 +1272,7 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
       <node ref="J6" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="J9" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
     </net>
     <net code="4" name="/BAT_SW">
@@ -1326,7 +1333,9 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U12" pin="8" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U2" pin="G" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
@@ -1336,107 +1345,107 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
     </net>
     <net code="9" name="HAND_END_LEFT">
       <node ref="J13" pin="1" pinfunction="1" pintype="unspecified"/>
-      <node ref="U2" pin="29" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U2" pin="28" pinfunction="PB15" pintype="bidirectional"/>
     </net>
     <net code="10" name="HAND_END_RIGHT">
       <node ref="J14" pin="1" pinfunction="1" pintype="unspecified"/>
-      <node ref="U2" pin="28" pinfunction="PB15" pintype="bidirectional"/>
+      <node ref="U2" pin="27" pinfunction="PB14" pintype="bidirectional"/>
     </net>
     <net code="11" name="HAND_PWM">
       <node ref="U12" pin="3" pinfunction="A" pintype="input"/>
       <node ref="U2" pin="11" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="12" name="Net-(IC1-V01)">
+    <net code="12" name="NRF24L01_CE">
+      <node ref="U1" pin="3" pinfunction="CE" pintype="input"/>
+      <node ref="U2" pin="32" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="NRF24L01_CSN">
+      <node ref="U1" pin="4" pinfunction="~{CSN}" pintype="input"/>
+      <node ref="U2" pin="38" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="NRF24L01_IRQ">
+      <node ref="U1" pin="8" pinfunction="IRQ" pintype="output"/>
+      <node ref="U2" pin="31" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(IC1-V01)">
       <node ref="IC1" pin="7" pinfunction="V01" pintype="power_in"/>
       <node ref="J4" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
-    <net code="13" name="Net-(IC1-V02)">
+    <net code="16" name="Net-(IC1-V02)">
       <node ref="IC1" pin="6" pinfunction="V02" pintype="power_in"/>
       <node ref="J4" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
-    <net code="14" name="Net-(IC2-V01)">
+    <net code="17" name="Net-(IC2-V01)">
       <node ref="IC2" pin="7" pinfunction="V01" pintype="power_in"/>
       <node ref="J7" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
-    <net code="15" name="Net-(IC2-V02)">
+    <net code="18" name="Net-(IC2-V02)">
       <node ref="IC2" pin="6" pinfunction="V02" pintype="power_in"/>
       <node ref="J7" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
-    <net code="16" name="Net-(IC3-V01)">
+    <net code="19" name="Net-(IC3-V01)">
       <node ref="IC3" pin="7" pinfunction="V01" pintype="power_in"/>
       <node ref="J16" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
-    <net code="17" name="Net-(IC3-V02)">
+    <net code="20" name="Net-(IC3-V02)">
       <node ref="IC3" pin="6" pinfunction="V02" pintype="power_in"/>
       <node ref="J16" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
-    <net code="18" name="Net-(J1-Pad1)">
+    <net code="21" name="Net-(J1-Pad1)">
       <node ref="J1" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="J15" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
-    <net code="19" name="Net-(J10-Pad2)">
+    <net code="22" name="Net-(J10-Pad2)">
       <node ref="J10" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(J11-Pad1)">
+    <net code="23" name="Net-(J11-Pad1)">
       <node ref="J11" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(J11-Pad4)">
+    <net code="24" name="Net-(J11-Pad4)">
       <node ref="J11" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(Q2-G)">
+    <net code="25" name="Net-(Q1-G)">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pintype="unspecified"/>
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(Q2-S)">
+    <net code="26" name="Net-(Q1-S)">
       <node ref="D3" pin="A" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="X1" pin="2A" pintype="passive"/>
       <node ref="X1" pin="2B" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(U3-IN)">
+    <net code="27" name="Net-(U3-IN)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
     </net>
-    <net code="25" name="Net-(U12-E)">
+    <net code="28" name="Net-(U12-E)">
       <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="U12" pin="4" pinfunction="E" pintype="output"/>
     </net>
-    <net code="26" name="Net-(U12-F)">
+    <net code="29" name="Net-(U12-F)">
       <node ref="J2" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="U12" pin="5" pinfunction="F" pintype="output"/>
     </net>
-    <net code="27" name="OPT_END_DISK">
+    <net code="30" name="OPT_END_DISK">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="46" pinfunction="PB9" pintype="bidirectional"/>
     </net>
-    <net code="28" name="OPT_END_WHEEL_LEFT">
+    <net code="31" name="OPT_END_WHEEL_LEFT">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="45" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="29" name="OPT_END_WHEEL_RIGHT">
+    <net code="32" name="OPT_END_WHEEL_RIGHT">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="43" pinfunction="PB7" pintype="bidirectional"/>
-    </net>
-    <net code="30" name="PA9">
-      <node ref="U1" pin="8" pinfunction="IRQ" pintype="output"/>
-      <node ref="U2" pin="30" pinfunction="PA9" pintype="bidirectional"/>
-    </net>
-    <net code="31" name="PA10">
-      <node ref="U1" pin="3" pinfunction="CE" pintype="input"/>
-      <node ref="U2" pin="31" pinfunction="PA10" pintype="bidirectional"/>
-    </net>
-    <net code="32" name="PA15">
-      <node ref="U1" pin="4" pinfunction="~{CSN}" pintype="input"/>
-      <node ref="U2" pin="38" pinfunction="PA15" pintype="bidirectional"/>
     </net>
     <net code="33" name="PB3">
       <node ref="U1" pin="5" pinfunction="SCK" pintype="input"/>
@@ -1456,7 +1465,7 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
       <node ref="J10" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="J10" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="J11" pin="3" pinfunction="3" pintype="unspecified"/>
-      <node ref="U2" pin="5v" pinfunction="5V" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="5V" pintype="power_in"/>
       <node ref="U3" pin="3" pinfunction="OUT" pintype="power_out"/>
     </net>
     <net code="37" name="WHEEL_LEFT_DIR">
@@ -1484,76 +1493,67 @@ Optoisolator Transistor Output 3750Vrms 2 Channel 8-DIP Gull Wing
     <net code="43" name="unconnected-(H3-Pad1)">
       <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
     </net>
-    <net code="44" name="unconnected-(U2-3V3-Pad3v)">
-      <node ref="U2" pin="3v" pinfunction="3V3" pintype="power_in"/>
-    </net>
-    <net code="45" name="unconnected-(U2-GND-PadG)">
-      <node ref="U2" pin="G" pinfunction="GND" pintype="power_in"/>
-    </net>
-    <net code="46" name="unconnected-(U2-GND-PadG)_1">
-      <node ref="U2" pin="G" pinfunction="GND" pintype="power_in"/>
-    </net>
-    <net code="47" name="unconnected-(U2-NRST-Pad7)">
+    <net code="44" name="unconnected-(U2-NRST-Pad7)">
       <node ref="U2" pin="7" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="48" name="unconnected-(U2-PA0-Pad10)">
+    <net code="45" name="unconnected-(U2-PA0-Pad10)">
       <node ref="U2" pin="10" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="49" name="unconnected-(U2-PA3-Pad13)">
+    <net code="46" name="unconnected-(U2-PA3-Pad13)">
       <node ref="U2" pin="13" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="50" name="unconnected-(U2-PA11-Pad32)">
-      <node ref="U2" pin="32" pinfunction="PA11" pintype="bidirectional"/>
+    <net code="47" name="unconnected-(U2-PA8-Pad29)">
+      <node ref="U2" pin="29" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="51" name="unconnected-(U2-PA12-Pad33)">
+    <net code="48" name="unconnected-(U2-PA9-Pad30)">
+      <node ref="U2" pin="30" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(U2-PA12-Pad33)">
       <node ref="U2" pin="33" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="52" name="unconnected-(U2-PB6-Pad42)">
+    <net code="50" name="unconnected-(U2-PB6-Pad42)">
       <node ref="U2" pin="42" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="53" name="unconnected-(U2-PB10-Pad21)">
+    <net code="51" name="unconnected-(U2-PB10-Pad21)">
       <node ref="U2" pin="21" pinfunction="PB10" pintype="bidirectional"/>
     </net>
-    <net code="54" name="unconnected-(U2-PB11-Pad22)">
+    <net code="52" name="unconnected-(U2-PB11-Pad22)">
       <node ref="U2" pin="22" pinfunction="PB11" pintype="bidirectional"/>
     </net>
-    <net code="55" name="unconnected-(U2-PB12-Pad25)">
+    <net code="53" name="unconnected-(U2-PB12-Pad25)">
       <node ref="U2" pin="25" pinfunction="PB12" pintype="bidirectional"/>
     </net>
-    <net code="56" name="unconnected-(U2-PB13-Pad26)">
+    <net code="54" name="unconnected-(U2-PB13-Pad26)">
       <node ref="U2" pin="26" pinfunction="PB13" pintype="bidirectional"/>
     </net>
-    <net code="57" name="unconnected-(U2-PB14-Pad27)">
-      <node ref="U2" pin="27" pinfunction="PB14" pintype="bidirectional"/>
-    </net>
-    <net code="58" name="unconnected-(U2-PC13-Pad2)">
+    <net code="55" name="unconnected-(U2-PC13-Pad2)">
       <node ref="U2" pin="2" pinfunction="PC13" pintype="bidirectional"/>
     </net>
-    <net code="59" name="unconnected-(U2-PC14-Pad3)">
+    <net code="56" name="unconnected-(U2-PC14-Pad3)">
       <node ref="U2" pin="3" pinfunction="PC14" pintype="bidirectional"/>
     </net>
-    <net code="60" name="unconnected-(U2-PC15-Pad4)">
+    <net code="57" name="unconnected-(U2-PC15-Pad4)">
       <node ref="U2" pin="4" pinfunction="PC15" pintype="bidirectional"/>
     </net>
-    <net code="61" name="unconnected-(U2-VBAT-Pad1)">
+    <net code="58" name="unconnected-(U2-VBAT-Pad1)">
       <node ref="U2" pin="1" pinfunction="VBAT" pintype="power_in"/>
     </net>
-    <net code="62" name="unconnected-(U12-C-Pad10)">
+    <net code="59" name="unconnected-(U12-C-Pad10)">
       <node ref="U12" pin="10" pinfunction="C" pintype="input"/>
     </net>
-    <net code="63" name="unconnected-(U12-D-Pad14)">
+    <net code="60" name="unconnected-(U12-D-Pad14)">
       <node ref="U12" pin="14" pinfunction="D" pintype="input"/>
     </net>
-    <net code="64" name="unconnected-(U12-EN_C-Pad9)">
+    <net code="61" name="unconnected-(U12-EN_C-Pad9)">
       <node ref="U12" pin="9" pinfunction="EN_C" pintype="input"/>
     </net>
-    <net code="65" name="unconnected-(U12-EN_D-Pad15)">
+    <net code="62" name="unconnected-(U12-EN_D-Pad15)">
       <node ref="U12" pin="15" pinfunction="EN_D" pintype="input"/>
     </net>
-    <net code="66" name="unconnected-(U12-G-Pad11)">
+    <net code="63" name="unconnected-(U12-G-Pad11)">
       <node ref="U12" pin="11" pinfunction="G" pintype="output"/>
     </net>
-    <net code="67" name="unconnected-(U12-H-Pad13)">
+    <net code="64" name="unconnected-(U12-H-Pad13)">
       <node ref="U12" pin="13" pinfunction="H" pintype="output"/>
     </net>
   </nets>

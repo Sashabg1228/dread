@@ -1,11 +1,89 @@
-\begin{table}[H]
-    \centering
-    \rotatebox{90}{
-        \begin{tabular}{| m{2.5cm} | m{3cm} | m{3cm} | m{3cm} | m{9cm} |}
-            \hline
-            Pin number & User label & GPIO mode & GPIO pull-up & GPIO function \\
-            \hline
-            PA1 & HAND\_PWM & GPIO\_OUTPUT & NO & Чрез таймер 2 се генерират импулси за управление на стъпковия мотор\\
+\begingroup % Begin a TeX group in order to localize scope of next three instructions
+    \small
+    \begin{longtable}{| m{4.5cm} | m{4.5cm} | m{3cm} | m{2cm} |}
+    %% Headers and footers
+    \caption{Използвани елементи в печатната платка на робота}
+    \label{table:elements-robot} \\
+    \hline
+    \textbf{Вид} 
+      & \textbf{Продуктов номер / Размер}
+      & \textbf{Reference(s)}
+      & \textbf{брой} \\ \hline
+    \endfirsthead 
+    \hline
+    \textbf{Вид} 
+      & \textbf{Продуктов номер / Размер}
+      & \textbf{Reference(s)}
+      & \textbf{брой} \\ \hline
+    \endhead 
+    \multicolumn{4}{r@{}}{\em}\\
+    \endfoot
+    \endlastfoot
+    %% Body of table
+    Електролитен Кондензатор & 100uF & C1, C5, C8 & 3 
+    \\ \hline
+    Керамичен Кондензатор & 100nF & C2, C3, C4, C6, C7, C9, C10, C11, C12 & 9
+    \\ \hline
+    Ценеров диод & BZX85C10-TAP & D1 & 1
+    \\ \hline
+    Двупосочен трансил & P6KE27CA & D3 & 1
+    \\ \hline
+    Оптрони & HCPL-2531 & IC1, IC2, IC3 & 3
+    \\ \hline
+    Клема 2 пина & 236-102 & J1, J3, J4, J7, J16, J6, J9, J18, J13, J14, J15 & 11
+    \\ \hline
+    Клема 4 пина & 236-104 & J2, J10, J11 & 1
+    \\ \hline
+    Клема 1 пин & 236-401 & J5, J8, J12, J17 & 4
+    \\ \hline
+    Бобина & 2.2uH & L1 & 1
+    \\ \hline
+    P-MOS транзистор & IXTP120P065T & Q1 & 1
+    \\ \hline
+    Резистор & 8.2kR & R1 & 1
+    \\ \hline
+    Резистор & 680R & R2, R3, R4 & 3
+    \\ \hline
+    Линеен регулатор & L7805 & U3, U4 & 2
+    \\ \hline
+    Преобразувател на логическото ниво & CD40109BE & U12 & 1
+    \\ \hline
+    Гнездо за бушон & 3522-2 & X1 & 1
+    \\ \hline
+    \end{longtable}
+\endgroup % End of TeX group
+
+
+%================================================================================
+%================================================================================
+
+
+\begingroup % Begin a TeX group in order to localize scope of next three instructions
+\begin{landscape}
+    \small
+    \begin{longtable}{| m{2cm} | m{5cm} | m{3cm} | m{3cm} | m{9cm} |}
+    %% Headers and footers
+    \caption{Конфигурация на изводите на микроконтролера на робота}
+    \label{table:pins-robot} \\
+    \hline
+    \textbf{Pin Nо.} 
+      & \textbf{User label}
+      & \textbf{GPIO mode}
+      & \textbf{GPIO pull-up}
+      & \textbf{GPIO function} \\ \hline
+    \endfirsthead 
+    \hline
+    \textbf{Pin Nо.} 
+      & \textbf{User label}
+      & \textbf{GPIO mode}
+      & \textbf{GPIO pull-up}
+      & \textbf{GPIO function} \\ \hline
+    \endhead 
+    \multicolumn{5}{r@{}}{\em Cont'd on following page}\\
+    \endfoot
+    \endlastfoot
+    %% Body of table
+    PA1 & HAND\_PWM & GPIO\_OUTPUT & NO & Чрез таймер 2 се генерират импулси за управление на стъпковия мотор\\
             \hline
             PA2 & HAND\_DIR & GPIO\_OUTPUT & NO & Управлява се посоката на движение на стъпковия мотор\\
             \hline
@@ -43,9 +121,6 @@
             \hline
             PA15 & NRF24L01\_CSN & GPIO\_OUTPUT & NO & Управлява се дали може да се четат и пишат регистрите на радиочестотния модул\\
             \hline
-        \end{tabular}
-    }
-    \caption{Изводите на робота}
-    \label{table:pins-robot}
-\end{table}
-
+    \end{longtable}
+\end{landscape}
+\endgroup % End of TeX group
